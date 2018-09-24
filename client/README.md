@@ -1,0 +1,1 @@
+This is a client side of Noa Assistant App.

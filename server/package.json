@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/nodemon delay 2.5 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorunokoe/noa_assistant.git"
+  },
+  "keywords": [
+    "noa",
+    "chat",
+    "assistant"
+  ],
+  "author": "Salgara Yeskendir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "connect": "^3.6.6",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "csurf": "^1.9.0",
+    "express": "^4.16.2",
+    "express-logger": "0.0.3",
+    "helmet": "^3.13.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.0.4",
+    "thinky": "^2.3.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
