@@ -1,0 +1,102 @@
+2018-09-28T17:01:19.182845000 0.215398s notice: Recursively removing directory /Users/Mac/Desktop/Esken Mac/IT/NodeProjects/Noa/server/rethinkdb_data/tmp
+2018-09-28T17:01:19.186384000 0.218944s notice: Initializing directory /Users/Mac/Desktop/Esken Mac/IT/NodeProjects/Noa/server/rethinkdb_data
+2018-09-28T17:01:19.186524000 0.219077s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/Mac/Desktop/Esken Mac/IT/NodeProjects/Noa/server/rethinkdb_data' did not already exist or is empty.)
+2018-09-28T17:01:19.186581000 0.219134s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-09-28T17:01:19.192600000 0.225153s notice: Running on Darwin 17.7.0 x86_64
+2018-09-28T17:01:19.192647000 0.225200s notice: Loading data from directory /Users/Mac/Desktop/Esken Mac/IT/NodeProjects/Noa/server/rethinkdb_data
+2018-09-28T17:01:19.373674000 0.406230s info: Automatically using cache size of 218 MB
+2018-09-28T17:01:19.376406000 0.408962s notice: Listening for intracluster connections on port 29015
+2018-09-28T17:01:19.378385000 0.410940s notice: Listening for client driver connections on port 28015
+2018-09-28T17:01:19.378527000 0.411082s notice: Listening for administrative HTTP connections on port 8080
+2018-09-28T17:01:19.378537000 0.411092s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-09-28T17:01:19.378546000 0.411101s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-09-28T17:01:19.378550000 0.411105s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-09-28T17:01:19.378557000 0.411113s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-09-28T17:01:19.378565000 0.411120s notice: Server ready, "Mavericks_local_wl7" 0513c3a9-153e-4ba7-b766-b4b3363ff306
+2018-09-28T17:01:23.798115000 4.830749s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: Starting a new Raft election for term 1.
+2018-09-28T17:01:23.798629000 4.831263s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: Added replica on this server.
+2018-09-28T17:01:23.820892000 4.853526s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: This server is Raft leader for term 1. Latest log index is 0.
+2018-09-28T17:01:24.329864000 5.362507s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: Configuration is changing.
+2018-09-28T17:01:42.855391000 23.888350s notice: Server got SIGINT from pid 5352, uid 501; shutting down...
+2018-09-28T17:01:42.855579000 23.888539s notice: Shutting down client connections...
+2018-09-28T17:01:42.857940000 23.890900s notice: All client connections closed.
+2018-09-28T17:01:42.857957000 23.890916s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-09-28T17:01:42.867995000 23.900955s notice: Storage engine shut down.
+2018-09-28T17:01:46.524190000 0.008854s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-09-28T17:01:46.530700000 0.015359s notice: Running on Darwin 17.7.0 x86_64
+2018-09-28T17:01:46.530747000 0.015405s notice: Loading data from directory /Users/Mac/Desktop/Esken Mac/IT/NodeProjects/Noa/server/rethinkdb_data
+2018-09-28T17:01:46.592694000 0.077354s info: Automatically using cache size of 240 MB
+2018-09-28T17:01:46.593388000 0.078048s notice: Listening for intracluster connections on port 29015
+2018-09-28T17:01:46.616450000 0.101110s notice: Listening for client driver connections on port 28015
+2018-09-28T17:01:46.616715000 0.101375s notice: Listening for administrative HTTP connections on port 8080
+2018-09-28T17:01:46.616723000 0.101383s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-09-28T17:01:46.616727000 0.101387s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-09-28T17:01:46.616730000 0.101390s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-09-28T17:01:46.616840000 0.101500s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-09-28T17:01:46.616844000 0.101503s notice: Server ready, "Mavericks_local_wl7" 0513c3a9-153e-4ba7-b766-b4b3363ff306
+2018-09-28T17:01:48.034151000 1.518835s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: Starting a new Raft election for term 2.
+2018-09-28T17:01:48.057870000 1.542555s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: This server is Raft leader for term 2. Latest log index is 4.
+2018-09-28T17:02:40.679597000 54.165162s notice: Server got SIGINT from pid 5352, uid 501; shutting down...
+2018-09-28T17:02:40.679761000 54.165325s notice: Shutting down client connections...
+2018-09-28T17:02:40.680034000 54.165599s notice: All client connections closed.
+2018-09-28T17:02:40.680044000 54.165608s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-09-28T17:02:40.683469000 54.169033s notice: Storage engine shut down.
+2018-09-28T17:02:47.079592000 0.050102s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-09-28T17:02:47.086711000 0.057217s notice: Running on Darwin 17.7.0 x86_64
+2018-09-28T17:02:47.086766000 0.057271s notice: Loading data from directory /Users/Mac/Desktop/Esken Mac/IT/NodeProjects/Noa/server/rethinkdb_data
+2018-09-28T17:02:47.130362000 0.100869s info: Automatically using cache size of 231 MB
+2018-09-28T17:02:47.132691000 0.103197s notice: Listening for intracluster connections on port 29015
+2018-09-28T17:02:47.155497000 0.126004s notice: Listening for client driver connections on port 28015
+2018-09-28T17:02:47.155686000 0.126193s notice: Listening for administrative HTTP connections on port 8080
+2018-09-28T17:02:47.155705000 0.126211s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-09-28T17:02:47.155709000 0.126215s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-09-28T17:02:47.155712000 0.126218s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-09-28T17:02:47.155714000 0.126221s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-09-28T17:02:47.155729000 0.126235s notice: Server ready, "Mavericks_local_wl7" 0513c3a9-153e-4ba7-b766-b4b3363ff306
+2018-09-28T17:02:48.313361000 1.283887s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: Starting a new Raft election for term 3.
+2018-09-28T17:02:48.325944000 1.296471s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: This server is Raft leader for term 3. Latest log index is 7.
+2018-09-29T14:35:17.640912000 37179.446819s notice: Server got SIGINT from pid 5352, uid 501; shutting down...
+2018-09-29T14:35:17.644262000 37179.450168s notice: Shutting down client connections...
+2018-09-29T14:35:17.647600000 37179.453507s notice: All client connections closed.
+2018-09-29T14:35:17.647610000 37179.453516s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-09-29T14:35:17.684887000 37179.490795s notice: Storage engine shut down.
+2018-09-29T14:42:39.838772000 0.015946s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-09-29T14:42:39.846868000 0.024040s notice: Running on Darwin 17.7.0 x86_64
+2018-09-29T14:42:39.846917000 0.024088s notice: Loading data from directory /Users/Mac/Desktop/Esken Mac/IT/NodeProjects/Noa/server/rethinkdb_data
+2018-09-29T14:42:39.902563000 0.079743s info: Automatically using cache size of 143 MB
+2018-09-29T14:42:39.903168000 0.080348s notice: Listening for intracluster connections on port 29015
+2018-09-29T14:42:39.929703000 0.106887s notice: Listening for client driver connections on port 28015
+2018-09-29T14:42:39.929922000 0.107106s notice: Listening for administrative HTTP connections on port 8080
+2018-09-29T14:42:39.929927000 0.107110s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-09-29T14:42:39.929930000 0.107113s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-09-29T14:42:39.930039000 0.107222s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-09-29T14:42:39.930042000 0.107226s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-09-29T14:42:39.930045000 0.107229s notice: Server ready, "Mavericks_local_wl7" 0513c3a9-153e-4ba7-b766-b4b3363ff306
+2018-09-29T14:42:39.946307000 0.123493s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2018-09-29T14:42:41.280001000 1.457380s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: Starting a new Raft election for term 4.
+2018-09-29T14:42:41.354182000 1.531571s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: This server is Raft leader for term 4. Latest log index is 10.
+2018-09-29T14:54:10.132938000 687.466922s notice: Server got SIGINT from pid 5352, uid 501; shutting down...
+2018-09-29T14:54:10.133536000 687.467519s notice: Shutting down client connections...
+2018-09-29T14:54:10.141017000 687.475001s notice: All client connections closed.
+2018-09-29T14:54:10.141050000 687.475033s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-09-29T14:54:10.147176000 687.481160s notice: Storage engine shut down.
+2018-09-29T16:22:35.922216000 0.220246s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-09-29T16:22:35.930679000 0.228704s notice: Running on Darwin 17.7.0 x86_64
+2018-09-29T16:22:35.930754000 0.228778s notice: Loading data from directory /Users/Mac/Desktop/Esken Mac/IT/NodeProjects/Noa/server/rethinkdb_data
+2018-09-29T16:22:35.995533000 0.293559s info: Automatically using cache size of 100 MB
+2018-09-29T16:22:35.995545000 0.293571s warn: Cache size is very low and may impact performance.
+2018-09-29T16:22:35.998372000 0.296398s notice: Listening for intracluster connections on port 29015
+2018-09-29T16:22:36.034157000 0.332185s notice: Listening for client driver connections on port 28015
+2018-09-29T16:22:36.034730000 0.332757s notice: Listening for administrative HTTP connections on port 8080
+2018-09-29T16:22:36.034733000 0.332760s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-09-29T16:22:36.034739000 0.332766s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-09-29T16:22:36.034743000 0.332770s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-09-29T16:22:36.034792000 0.332819s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-09-29T16:22:36.034796000 0.332823s notice: Server ready, "Mavericks_local_wl7" 0513c3a9-153e-4ba7-b766-b4b3363ff306
+2018-09-29T16:22:37.272777000 1.570841s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: Starting a new Raft election for term 5.
+2018-09-29T16:22:37.319693000 1.617759s info: Table 8c28080d-0cbf-42d9-98ee-c1c1979d7330: This server is Raft leader for term 5. Latest log index is 13.
+2018-09-29T19:12:10.352969000 10173.794582s notice: Server got SIGINT from pid 5352, uid 501; shutting down...
+2018-09-29T19:12:10.353400000 10173.795013s notice: Shutting down client connections...
+2018-09-29T19:12:10.353672000 10173.795284s notice: All client connections closed.
+2018-09-29T19:12:10.353685000 10173.795297s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-09-29T19:12:10.366226000 10173.807839s notice: Storage engine shut down.

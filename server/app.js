@@ -9,6 +9,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var config = require('./config');
 var routes = require('./config/routes');
+var socket = require("./controllers/socket")
 
 var app = express();
 app.set('views', __dirname+'/views')
@@ -47,6 +48,7 @@ function startServer() {
     var server = app.listen(app.get('port'), function() {
         console.log('Mode ' + app.get('env') + ' ' + config.host + ' ' + app.get('port'));
     });
+    socket(server)
 }
 if(require.main === module){
     startServer();
