@@ -9,7 +9,7 @@ Database: RethinkDB
 
 Real-time provided by RethinkDB, Socket.IO.
 
-![noa-main](https://lh5.googleusercontent.com/Qs_UQoEzLXG2bvSExC3sLzCuuu811WKM_UxRcXH5iZ-VrkWHdvNw05IVr6dtXnHUM_1zCpzTGg0Crq4XIBAZ=w1680-h831-rw)
+![noa-main](https://user-images.githubusercontent.com/36730580/46247721-45e6df00-c431-11e8-861d-e6aa50dccff4.png)
 
 DEMO
 
@@ -18,13 +18,11 @@ DEMO
 
 Design: https://www.figma.com/file/SQJkHwbNObxXfsAnwNqL8iMa/NoA?node-id=0%3A1
 
-![noa-design](https://lh3.googleusercontent.com/7EHPCR-BVG6B5VNU1u5LtSItQp6NKeSi7DvVDsEKcG1T4vV6Ka-p4vKPlproCevIT19Roj4SklPQZVVmFwUt=w1680-h831-rw)
-
+![noa-design](https://user-images.githubusercontent.com/36730580/46247720-45e6df00-c431-11e8-8aab-60a753632693.png)
 
 AI: Dialogflow 
 
-![noa-dialogflow](https://lh4.googleusercontent.com/LOmjNjiGn0JsJdtgxV_P4vKtsEF5tnyYtqKPNWfIBdXMRBL_50va3ZNUoXMIIXX8kXBprsIQBL9JC3jHay0_=w1680-h831-rw)
-
+![noa-dialogflow](https://user-images.githubusercontent.com/36730580/46247727-5e56f980-c431-11e8-942d-f09b11593c38.png)
 
 - What was hard?
 Rethink about architecture, scalability, best solutions
