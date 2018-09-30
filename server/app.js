@@ -46,12 +46,13 @@ switch(app.get('env')){
 
 function startServer() {
     var server = app.listen(app.get('port'), function() {
-        console.log('Mode ' + app.get('env') + ' ' + config.host + ' ' + app.get('port'));
+        // console.log('Mode ' + app.get('env') + ' ' + config.host + ' ' + app.get('port'));
     });
     socket(server)
+    return server
 }
 if(require.main === module){
     startServer();
 } else {
-    module.exports = startServer;
+    module.exports = startServer();
 }
