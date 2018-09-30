@@ -24,6 +24,11 @@ AI: Dialogflow
 
 ![noa-dialogflow](https://user-images.githubusercontent.com/36730580/46247727-5e56f980-c431-11e8-942d-f09b11593c38.png)
 
+Unit & Integration tests: Mocha, Chai, Supertest
+
+![2018-09-30 17 54 33](https://user-images.githubusercontent.com/36730580/46257423-420f9700-c4db-11e8-9981-cb028903c2f0.png)
+
+
 - What was hard?
 Rethink about architecture, scalability, best solutions
 - What was easy?
